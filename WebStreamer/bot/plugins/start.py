@@ -53,7 +53,7 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='\n\n╭──「 ⭕️ BOT INFO ⭕️  」\n\n│├ 🧬Owner :@ShivamTheSkywalker\n\n├ 💾 Functionality : File to link\n\n├ 🛡Support group : 😬\n\n├ 🛠Channel : @XStream_Flix\n\n├ 🔼 Link Max Speed : 4MB/s\n\n├ 🧲Forward File to get link\n\n╰──「 🚸@XStream_Flix🚸 」',
+            text='\n╭──「 ⭕️ BOT INFO ⭕️  」\n│├ 🧬Owner :@ShivamTheSkywalker\n├ 💾 Functionality : File to link\n├ 🛡Support group : 😬\n├ 🛠Channel : @XStream_Flix\n├ 🔼 Link Max Speed : 4MB/s\n├ 🧲Forward File to get link\n╰──「 🚸@XStream_Flix🚸 」',
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('Report Error', url='https://t.me/ShivamTheSkywalker')]
