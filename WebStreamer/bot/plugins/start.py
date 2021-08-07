@@ -53,11 +53,19 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='(>‿◠)✌ Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic ᕙ(`▿´)ᕗ !',
+            text='╭──「 ⭕️ BOT INFO ⭕️  」
+│
+├ 🧬 Bot Owner : @ShivamTheSkywalker
+├ 💾 Functionality : File to link
+├ 🛡Support group : 😬
+├ 🛠Channel : @XStream_Flix 
+├ 🔼 Link Max Speed : 4MB/s
+├ 🧲Forward File to get link
+│
+╰──「 🚸@XStream_Flix🚸 」',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('✔ Channel', url='https://t.me/XStream_Flix'), InlineKeyboardButton('Support Group', url='https://t.me/joinchat/2VULyCTHCoU5ZDM9')],
-                    [InlineKeyboardButton('© Developer', url='https://t.me/ShivamTheSkywalker')]
+                    [InlineKeyboardButton('Report Error', url='https://t.me/ShivamTheSkywalker')]
                 ]
             ),
             disable_web_page_preview=True
@@ -85,7 +93,7 @@ async def start(b, m):
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh / Try Again",
-                                                     url=f"https://t.me/AH_File2Link_Bot?start=AbirHasan2005_{usr_cmd}")
+                                                     url=f"https://t.me/XStream_DDLV2bot?start")
                             ]
                         ]
                     ),
