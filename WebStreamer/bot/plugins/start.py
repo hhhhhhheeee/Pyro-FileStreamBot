@@ -53,9 +53,7 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='╭──────────────
-│
-├ 🧬 Bot Owner : @ShivamTheSkywalker
+            text='├ 🧬 Bot Owner : @ShivamTheSkywalker
 ├ 💾 Functionality : File to link
 ├ 🛡Support group : 😬
 ├ 🛠Channel : @XStream_Flix 
