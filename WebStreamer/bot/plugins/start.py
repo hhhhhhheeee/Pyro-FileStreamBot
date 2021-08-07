@@ -53,7 +53,7 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='╭──「 ⭕️ BOT INFO ⭕️  」
+            text='╭──────────────
 │
 ├ 🧬 Bot Owner : @ShivamTheSkywalker
 ├ 💾 Functionality : File to link
@@ -61,7 +61,6 @@ async def start(b, m):
 ├ 🛠Channel : @XStream_Flix 
 ├ 🔼 Link Max Speed : 4MB/s
 ├ 🧲Forward File to get link
-│
 ╰──「 🚸@XStream_Flix🚸 」',
             reply_markup=InlineKeyboardMarkup(
                 [
